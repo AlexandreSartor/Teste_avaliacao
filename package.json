@@ -6,9 +6,8 @@
   "author": "ugioni",
   "license": "ISC",
   "dependencies": {
-    "jest": "^30.3.0",
-    "rimraf": "^6.1.3",
-    "mkdirp": "^3.0.1"
+    "mkdirp": "^3.0.1",
+    "rimraf": "^6.1.3"
   },
   "scripts": {
     "clean": "rimraf ./coverage && mkdirp ./coverage",
@@ -20,5 +19,21 @@
       "lcov",
       "text"
     ]
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreSartor/prova01-unit-AlexandreSartor.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AlexandreSartor/prova01-unit-AlexandreSartor/issues"
+  },
+  "homepage": "https://github.com/AlexandreSartor/prova01-unit-AlexandreSartor#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
   }
 }
