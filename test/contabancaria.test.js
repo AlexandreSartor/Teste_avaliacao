@@ -1,5 +1,5 @@
 // test/contabancaria.test.js
-const Contabancaria = require("../src/contaBancaria");
+const Contabancaria = require("../src/contabancaria");
 
 describe("contabancaria", () => {
   let contaBancaria;
